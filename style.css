@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates");
+html {
+  height: 200vh;
+  background: radial-gradient(ellipse at center, #ead1dc 0%, #cfe2f3 50%);
+  cursor: pointer;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  border-bottom: 10vh #339545 solid;
+  box-sizing: border-box;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-family: "Lucida Handwriting";
+  font-size: 30px;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  top: 0vh;
+  transform: translate(0, 100vh);
